@@ -238,3 +238,41 @@ background-color: #22213c;
   text-decoration: none;
   color: white;
 }
+
+@media (max-width:768px){
+
+  .cam-section {
+    /* display: flex; */
+    flex-direction: column-reverse;
+  }
+  .reg{
+    height: 200px;
+    width: 200px;
+  }
+  .cam img{
+    width: 202px;
+
+  }
+  .cam{
+    left: 100px;
+    top: 160px;
+  }
+
+  .text-sec{
+    width: 100%;
+  }
+  .cam-title {
+    font-size: 19px;
+}
+.cam-details p {
+  width: 102%;
+  text-align: center;
+}
+.cam-btn {
+  
+  justify-content: center;
+}
+
+
+
+}
