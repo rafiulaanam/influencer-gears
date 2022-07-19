@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+}
+section {
+  display: flex;
+  justify-content: space-around;
+}
+.container {
+  width: 85%;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+}
+.menu a {
+  text-decoration: none;
+  color: black;
+}
+
+.cam-section {
+  display: flex;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.text-sec {
+  width: 75%;
+}
+.cam-title {
+  font-size: 30px;
+}
+.cam-details p {
+  width: 85%;
+}
+.cam-btn {
+  display: flex;
+  align-items: center;
+}
+.cam-btn a {
+  padding: 10px 24px;
+  text-decoration: none;
+  background: #e02c6d;
+  border-radius: 41px;
+  color: white;
+}
+.cam {
+  position: absolute;
+  left: 780px;
+  top: 95px;
+}
+.fa-arrow-right {
+  margin-left: 5px;
+}
+.reg {
+  width: 440px;
+  height: 340px;
+  border: 60px solid rgba(241, 228, 255, 1);
+  border-radius: 50%;
+  opacity: 0.55;
+}
